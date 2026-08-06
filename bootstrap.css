@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --color01: #14213D ;
+    --color02: #CD7F32;
+}
+
+body {
+    background-color: var(--color02);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color: rgba(20, 33, 61, 0.8);
+    height: 64px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.texto-navbar{
+    display: flex;
+    margin-left: 27rem;
+    gap: 4rem;
+}
+
+.home {
+    display: flex;
+    color: var(--color01);
+    margin-top: 2rem;
+    height: 100vh;
+}
+
+.text01 {
+    margin-left: 3rem;
+    margin-top: 5rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 4rem;
+}
+
+.img01 {
+    margin-left: 20rem;
+    width: 30rem;
+    height: 30rem;
+}
+
+.aaa {
+    display: flex;
+    gap: 2rem;
+    margin-left: 2rem;
+}
+
+
+
+.card{
+    background-color: rgb(250, 231, 206);
+    border-radius: 2rem;
+}
+
+.pingado{
+    height: 190px; 
+    object-fit: cover;
+}
+
+.preco{
+    font-weight: 700;
+    color: var(--color01);
+    margin-bottom: 0.5rem;
+}
+
+.btn{
+    background-color: rgba(0, 145, 230, 0.877);
+    width: 128px;
+    margin-left: 3rem;
+    transition: 0.5s ease;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    background-color: rgba(0, 145, 230, 0.877) ;
+}
+
+.h1-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #14213D;
+    margin-bottom: 2rem;
+}
+
+.sobre-section{
+    padding: 3rem 2rem;
+    border-radius: 16px;
+    border: 16px;
+    border-color: #14213D ;
+}
+
+.sobre-conteudo{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.sobre-img{
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 2rem;
+    flex-shrink: 0;
+}
+
+.sobre-texto{
+    color: var(--color01);
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+
+.footer{
+    background-color: rgba(20, 33, 61, 0.9);
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+}
+
+.footer-redes{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color: var(--color02);
+    text-decoration: underline;
+}
+
+.footer-copy{
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.7);
+    margin: 0;
+}
