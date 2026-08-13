@@ -10,9 +10,11 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+   scroll-behavior: smooth !important; 
+   scroll-padding-top: 64px;
 }
+
 
 .navbar{
     background-color: rgba(20, 33, 61, 0.8);
@@ -28,6 +30,18 @@ html{
     display: flex;
     margin-left: 27rem;
     gap: 4rem;
+}
+
+.search{
+    background-color: #14213D;
+    color: antiquewhite;
+    border-radius: 8px;
+}
+
+.buscar{
+    background-color:  var(--color02);
+    color: antiquewhite;
+    border-radius: 8px;
 }
 
 .home {
@@ -92,6 +106,7 @@ html{
     justify-content: center;
     color: #14213D;
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .sobre-section{
